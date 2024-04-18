@@ -57,9 +57,9 @@ set_background("TOKYO_APP/img/photo_5821122691741106634_y.jpg", background_size=
 
 logo0 = 'https://www.japan-guide.com/thumb/destination_tokyo.jpg'
 logo2 = 'img\ktem.png'
-im2='img\kgeisha.png'
-im='img\ksamu.png'
-nube = 'img\wordcloud.png'
+im2='TOKYO_APP/img/kgeisha.png'
+im='TOKYO_APP/img/ksamu.png'
+nube = 'TOKYO_APP/img/wordcloud.png'
 # --------------------COSAS QUE VAMOS A USAR EN TODA LA APP----------------------------#
 df = pd.read_csv("TOKYO_APP/data/dairbnb_tokyo.csv")
 
