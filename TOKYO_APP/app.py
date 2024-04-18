@@ -2,7 +2,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import joblib
 from PIL import Image
 import streamlit as st
 import streamlit.components.v1 as components
