@@ -15,4 +15,4 @@ Este repositorio contiene un análisis exhaustivo de los datos de Airbnb en Toky
 
 Aquí el link a la aplicación: http://192.168.1.30:8501
 
-5. **Visualizaciones en Power BI**: Archivos de visualizaciones de Power BI. Estas visualizaciones proporcionan una representación gráfica de los datos de Airbnb en Tokyo y pueden ser utilizadas para presentaciones o análisis más detallados.
+4.  **Visualizaciones en Power BI**: Archivos de visualizaciones de Power BI. Estas visualizaciones proporcionan una representación gráfica de los datos de Airbnb en Tokyo y pueden ser utilizadas para presentaciones o análisis más detallados.
