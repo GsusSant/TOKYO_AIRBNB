@@ -52,7 +52,7 @@ def set_background(png_file, background_size='auto', background_position='left')
     '''
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
-set_background("img/photo_5821122691741106634_y.jpg", background_size='70% 70%', background_position='left')
+set_background("TOKYO_APP/img/photo_5821122691741106634_y.jpg", background_size='70% 70%', background_position='left')
 
 
 logo0 = 'https://www.japan-guide.com/thumb/destination_tokyo.jpg'
