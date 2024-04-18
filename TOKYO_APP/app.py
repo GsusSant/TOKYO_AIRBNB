@@ -2,7 +2,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import seaborn as sns
 import joblib
 from PIL import Image
 import streamlit as st
@@ -10,7 +9,6 @@ import streamlit.components.v1 as components
 import numpy as np
 import pandas as pd
 import warnings
-import seaborn as sns
 from PIL import Image 
 import base64
 
