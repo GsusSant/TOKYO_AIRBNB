@@ -50,7 +50,7 @@ st.set_page_config(
 #     '''
 #     st.markdown(page_bg_img, unsafe_allow_html=True)
 
-set_background("img\photo_5821122691741106634_y.jpg", background_size='70% 70%', background_position='left')
+# set_background("img\photo_5821122691741106634_y.jpg", background_size='70% 70%', background_position='left')
 
 logo0 = 'https://www.japan-guide.com/thumb/destination_tokyo.jpg'
 logo2 = 'img\ktem.png'
