@@ -61,9 +61,8 @@ im2='img\kgeisha.png'
 im='img\ksamu.png'
 nube = 'img\wordcloud.png'
 # --------------------COSAS QUE VAMOS A USAR EN TODA LA APP----------------------------#
-@st.cache_data()
 def load_data():
-    df = pd.read_csv("TOKYO_AIRBNB\TOKYO_APP\data\dairbnb_tokyo.csv")
+    df = pd.read_csv("TOKYO_AIRBNB\TOKYO_APP\data\dairbnb_tokyo.csv") 
     return df
 
 # --------------------CARGA DATOS----------------------------#
