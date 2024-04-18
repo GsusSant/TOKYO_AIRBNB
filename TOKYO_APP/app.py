@@ -2,13 +2,8 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import matplotlib as plt
 import seaborn as sns
-import plotly.express as px 
 import joblib
-import nltk
-import geopandas as gpd
-from matplotlib.colors import LinearSegmentedColormap
 from PIL import Image
 import streamlit as st
 import streamlit.components.v1 as components
@@ -16,16 +11,9 @@ import numpy as np
 import pandas as pd
 import warnings
 import seaborn as sns
-import matplotlib.pyplot as plt
-import plotly_express as px
-import plotly.graph_objects as go
-import folium
-from folium import plugins
-from folium.plugins import FastMarkerCluster
 from PIL import Image 
 import base64
-from streamlit_folium import folium_static
-from sklearn.feature_extraction.text import CountVectorizer
+
 
 # --------------------CONFIGURACIÓN DE LA PÁGINA----------------------------#
 st.set_page_config(
