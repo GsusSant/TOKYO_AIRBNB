@@ -160,7 +160,7 @@ elif page == "ANÁLISIS":
     st.write('## **EXPLORAREMOS CUÁLES SON LOS PRECIOS POR NOCHE DEPENDIENDO DEL BARRIO**')
     st.write('### Antes de ello, haremos la conversión de moneda: 1 jpy = 0.0061 euro ')
 
-    with open("html\preciomedio_barrio.html", "r", encoding="utf-8") as f:
+    with open("TOKYO_APP/html/preciomedio_barrio.html", "r", encoding="utf-8") as f:
         html_code = f.read()
 
     st.components.v1.html(html_code, width=1000, height=600)
@@ -172,7 +172,7 @@ elif page == "ANÁLISIS":
     
     st.write('## **EXPLORAREMOS NÚMERO DE ALOJAMIENTOS POR BARRIO**')
         
-    with open("html\kalojamiento_barrio.html", "r", encoding="utf-8") as f:
+    with open("TOKYO_APP/html/kalojamiento_barrio.html", "r", encoding="utf-8") as f:
         html_code = f.read()
 
     st.components.v1.html(html_code, width=1000, height=600)
@@ -181,7 +181,7 @@ elif page == "ANÁLISIS":
 
     st.write('## **¿CUÁL ES LA DISTRIBUCIÓN DE PRECIO?**')
 
-    with open("html\distribucion_precio.html", "r", encoding="utf-8") as f:
+    with open("TOKYO_APP/html/distribucion_precio.html", "r", encoding="utf-8") as f:
         html_code = f.read()
 
     st.components.v1.html(html_code, width=1000, height=600)
@@ -189,7 +189,7 @@ elif page == "ANÁLISIS":
     
     st.write('## **¿CUÁL ES EL PRECIO SEGÚN EL TIPO DE HABITACIÓN?**')
 
-    with open("html\grafico_boxplot.html", "r", encoding="utf-8") as f:
+    with open("TOKYO_APP/html/grafico_boxplot.html", "r", encoding="utf-8") as f:
         html_code = f.read()
 
     st.components.v1.html(html_code, width=1000, height=600)
@@ -198,7 +198,7 @@ elif page == "ANÁLISIS":
     
     
     
-    with open("html\precio_habitacion.html", "r", encoding="utf-8") as f:
+    with open("TOKYO_APP/html/precio_habitacion.html", "r", encoding="utf-8") as f:
         html_code = f.read()
 
     st.components.v1.html(html_code, width=1000, height=600)
@@ -206,7 +206,7 @@ elif page == "ANÁLISIS":
         
     st.write('## **DISTRIBUCIÓN DE PERSONAS SEGUN EL TIPO DE ALOJAMIENTO**')
 
-    with open("html\personas_alojamiento.html", "r", encoding="utf-8") as f:
+    with open("TOKYO_APP/html/personas_alojamiento.html", "r", encoding="utf-8") as f:
         html_code = f.read()
 
     st.components.v1.html(html_code, width=1000, height=600)
@@ -217,14 +217,14 @@ elif page == "ANÁLISIS":
 
     st.write('## **PUNTUACIÓN DE LOS ALOJAMIENTOS DISTRIBUIDO POR BARRIO**')
 
-    with open("html\puntuacion_barrio.html", "r", encoding="utf-8") as f:
+    with open("TOKYO_APP/html/puntuacion_barrio.html", "r", encoding="utf-8") as f:
         html_code = f.read()
 
     st.components.v1.html(html_code, width=1000, height=600)
 
 
 
-    with open("html\puntuacion_localizacion.html", "r", encoding="utf-8") as f:
+    with open("TOKYO_APP/html/puntuacion_localizacion.html", "r", encoding="utf-8") as f:
         html_code = f.read()
 
     st.components.v1.html(html_code, width=1000, height=600)
@@ -240,7 +240,7 @@ elif page == "MAPAS":
     
     st.markdown('### **VISUALIZAMOS EL MAPA DE TOKYO CON LA MEDIA DE PRECIOS POR BARRIO:**')
     
-    with open("html\mapa_precio.html", "r", encoding="utf-8") as f:
+    with open("TOKYO_APP/html/mapa_precio.html", "r", encoding="utf-8") as f:
         html_code = f.read()
 
     st.components.v1.html(html_code, width=1000, height=600)
@@ -248,7 +248,7 @@ elif page == "MAPAS":
     
     
     
-    with open("html\ktokyo_map.html", "r", encoding="utf-8") as f:
+    with open("TOKYO_APP/html/ktokyo_map.html", "r", encoding="utf-8") as f:
         html_code = f.read()
 
     st.components.v1.html(html_code, width=1000, height=600)
@@ -274,20 +274,20 @@ Además, examinaremos algunas tendencias destacadas en las reviews y comentarios
     
     """)
         
-    with open("html\grafico_reviews_por_mes.html", "r", encoding="utf-8") as f:
+    with open("TOKYO_APP/html/grafico_reviews_por_mes.html", "r", encoding="utf-8") as f:
         html_code = f.read()
 
     st.components.v1.html(html_code, width=1000, height=600)
     
     
-    with open("html\grafico_relacion_disponibilidad_puntuacion.html", "r", encoding="utf-8") as f:
+    with open("TOKYO_APP/html/grafico_relacion_disponibilidad_puntuacion.html", "r", encoding="utf-8") as f:
         html_code = f.read()
 
     st.components.v1.html(html_code, width=1000, height=600)
     
 
 
-    with open("html\grafico_relacion_precio_puntuacion.html", "r", encoding="utf-8") as f:
+    with open("TOKYO_APP/html/grafico_relacion_precio_puntuacion.html", "r", encoding="utf-8") as f:
         html_code = f.read()
 
     st.components.v1.html(html_code, width=1000, height=600)
