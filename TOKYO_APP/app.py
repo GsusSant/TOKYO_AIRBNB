@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd
 import warnings
 from PIL import Image 
-import base64
+# import base64
 
 
 # --------------------CONFIGURACIÓN DE LA PÁGINA----------------------------#
@@ -23,32 +23,32 @@ st.set_page_config(
 # ---------------------FONDO----------------------#
 
 
-def get_base64(bin_file):
-    with open(bin_file, 'rb') as f:
-        data = f.read()
-    return base64.b64encode(data).decode()
+# def get_base64(bin_file):
+#     with open(bin_file, 'rb') as f:
+#         data = f.read()
+#     return base64.b64encode(data).decode()
 
-def get_base64(bin_file):
-    with open(bin_file, 'rb') as f:
-        data = f.read()
-    return base64.b64encode(data).decode()
+# def get_base64(bin_file):
+#     with open(bin_file, 'rb') as f:
+#         data = f.read()
+#     return base64.b64encode(data).decode()
 
-def set_background(png_file, background_size='auto', background_position='left'):
-    bin_str = get_base64(png_file)
-    page_bg_img = f'''
-    <style>
-    .main {{
-        background-image: url("data:image/png;base64,{bin_str}");
-        background-size: {background_size};
-        background-position: {background_position};
-        background-attachment: local;
-        width: 100%;
-        height: 100%;
-    }}
-    </style>
-    <div class="main"></div>
-    '''
-    st.markdown(page_bg_img, unsafe_allow_html=True)
+# def set_background(png_file, background_size='auto', background_position='left'):
+#     bin_str = get_base64(png_file)
+#     page_bg_img = f'''
+#     <style>
+#     .main {{
+#         background-image: url("data:image/png;base64,{bin_str}");
+#         background-size: {background_size};
+#         background-position: {background_position};
+#         background-attachment: local;
+#         width: 100%;
+#         height: 100%;
+#     }}
+#     </style>
+#     <div class="main"></div>
+#     '''
+#     st.markdown(page_bg_img, unsafe_allow_html=True)
 
 set_background("img\photo_5821122691741106634_y.jpg", background_size='70% 70%', background_position='left')
 
