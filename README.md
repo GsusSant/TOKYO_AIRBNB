@@ -5,6 +5,9 @@
 
 Este repositorio contiene un análisis exhaustivo de los datos de Airbnb en Tokyo, que incluye el preprocesamiento de datos, análisis exploratorio de datos (EDA), una aplicación interactiva utilizando Streamlit y visualizaciones en Power BI.
 
+Los conjuntos de datos empleados para el análisis y desarrollo del proyecto fueron sacados de la siguiente página: 
+https://insideairbnb.com/tokyo
+
 ## Contenido
 
 1. **Preprocesamiento de Datos**: El código utilizado para el preprocesamiento de los datos de Airbnb Tokyo. Esto incluye la limpieza de datos, manejo de valores faltantes, codificación de variables categóricas y cualquier otro paso necesario para preparar los datos para su análisis.
