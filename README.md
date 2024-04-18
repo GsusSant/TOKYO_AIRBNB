@@ -16,6 +16,5 @@ https://insideairbnb.com/tokyo
 
 3. **Aplicación Interactiva con Streamlit**: El código de la aplicación interactiva desarrollada utilizando Streamlit. Esta aplicación permite a los usuarios explorar los datos de Airbnb en Tokyo de manera interactiva, visualizando precios de alojamientos, información sobre tipos de habitación, barrios, reseñas de los alojamientos y sobre los hosts.
 
-Aquí el link a la aplicación: http://192.168.1.30:8501
 
 4.  **Visualizaciones en Power BI**: Archivos de visualizaciones de Power BI. Estas visualizaciones proporcionan una representación gráfica de los datos de Airbnb en Tokyo y pueden ser utilizadas para presentaciones o análisis más detallados.
