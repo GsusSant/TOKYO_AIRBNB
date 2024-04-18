@@ -10,7 +10,13 @@ import pandas as pd
 import warnings
 from PIL import Image 
 import base64
+import os
 
+def get_base64(bin_file):
+    file_path = os.path.join(os.getcwd(), bin_file)
+    with open(file_path, 'rb') as f:
+        data = f.read()
+    return base64.b64encode(data).decode()
 
 # --------------------CONFIGURACIÓN DE LA PÁGINA----------------------------#
 st.set_page_config(
@@ -24,12 +30,8 @@ st.set_page_config(
 
 
 def get_base64(bin_file):
-    with open(bin_file, 'rb') as f:
-        data = f.read()
-    return base64.b64encode(data).decode()
-
-def get_base64(bin_file):
-    with open(bin_file, 'rb') as f:
+    file_path = os.path.join(os.getcwd(), bin_file)
+    with open(file_path, 'rb') as f:
         data = f.read()
     return base64.b64encode(data).decode()
 
